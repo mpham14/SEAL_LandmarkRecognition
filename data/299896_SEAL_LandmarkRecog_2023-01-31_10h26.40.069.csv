@@ -1,0 +1,8 @@
+﻿image,correct_key,Recog_trials.thisRepN,Recog_trials.thisTrialN,Recog_trials.thisN,Recog_trials.thisIndex,text.started,text_2.started,key_resp.started,key_resp.keys,key_resp.rt,LandmarkImage.started,Recog_Question.started,Recog_key_resp.started,Recog_key_resp.keys,Recog_key_resp.corr,Recog_key_resp.rt,text_3.started,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,24.24080980400322,27.232262483012164,27.232262483012164,space,17.551896671997383,,,,,,,,299896,001,2023-01-31_10h26.40.069,SEAL_LandmarkRecog,2022.2.4,None,
+images_LandRecog/Landmark5.png,y,0,0,0,4,,,,,,44.917893940990325,44.917893940990325,44.917893940990325,y,1,5.471342261007521,,299896,001,2023-01-31_10h26.40.069,SEAL_LandmarkRecog,2022.2.4,None,
+images_LandRecog/Landmark2.png,n,0,1,1,1,,,,,,50.43742134401691,50.43742134401691,50.43742134401691,y,0,0.736175814003218,,299896,001,2023-01-31_10h26.40.069,SEAL_LandmarkRecog,2022.2.4,None,
+images_LandRecog/Landmark1.png,y,0,2,2,0,,,,,,51.21465401901514,51.21465401901514,51.21465401901514,y,1,0.7985555780178402,,299896,001,2023-01-31_10h26.40.069,SEAL_LandmarkRecog,2022.2.4,None,
+images_LandRecog/Landmark4.png,n,0,3,3,3,,,,,,52.06484483301756,52.06484483301756,52.06484483301756,n,1,0.6489384020096622,,299896,001,2023-01-31_10h26.40.069,SEAL_LandmarkRecog,2022.2.4,None,
+images_LandRecog/Landmark3.png,n,0,4,4,2,,,,,,52.75722048501484,52.75722048501484,52.75722048501484,y,0,0.905747318000067,,299896,001,2023-01-31_10h26.40.069,SEAL_LandmarkRecog,2022.2.4,None,
+,,,,,,,,,,,,,,,,,53.68906170499395,,,,,,,

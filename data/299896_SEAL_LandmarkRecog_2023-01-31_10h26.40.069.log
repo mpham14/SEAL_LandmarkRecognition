@@ -1,0 +1,71 @@
+6.5325 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.5138 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+17.3434 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.3466 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fabf5093a00>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fabc26edca0>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.3471 	EXP 	window1: mouseVisible = True
+17.3497 	EXP 	window1: mouseVisible = False
+17.3497 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+17.3498 	EXP 	window1: recordFrameIntervals = False
+17.5005 	EXP 	window1: recordFrameIntervals = True
+18.0046 	WARNING 	t of last frame was 25.64ms (=1/39)
+18.3045 	WARNING 	t of last frame was 25.26ms (=1/39)
+18.4214 	WARNING 	t of last frame was 23.95ms (=1/41)
+18.8377 	WARNING 	t of last frame was 25.19ms (=1/39)
+18.9547 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.0715 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+24.1593 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the SEAL Landmark Recognition Task', units='height', win=Window(...), wrapWidth=1)
+24.1857 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+24.2019 	EXP 	Created LandmarkImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='LandmarkImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.2074 	EXP 	Created Recog_Question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Recog_Question', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Did you see this art piece?', units='height', win=Window(...), wrapWidth=1)
+24.2142 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+24.2408 	EXP 	text: autoDraw = True
+27.2323 	EXP 	text: autoDraw = False
+27.2323 	EXP 	text_2: autoDraw = True
+44.8387 	EXP 	Imported LandmarkRecog_Stims.xlsx as conditions, 5 conditions, 2 params
+44.8421 	EXP 	Created sequence: random, trialTypes=5, nReps=1, seed=None
+44.8425 	EXP 	New trial (rep=0, index=0): {'image': 'images_LandRecog/Landmark5.png', 'correct_key': 'y'}
+44.9020 	DATA 	Keypress: space
+44.9179 	EXP 	text_2: autoDraw = False
+44.9179 	EXP 	LandmarkImage: image = 'images_LandRecog/Landmark5.png'
+44.9179 	EXP 	LandmarkImage: autoDraw = True
+44.9179 	EXP 	Recog_Question: autoDraw = True
+50.4001 	EXP 	New trial (rep=0, index=1): {'image': 'images_LandRecog/Landmark2.png', 'correct_key': 'n'}
+50.4218 	DATA 	Keypress: y
+50.4374 	EXP 	LandmarkImage: autoDraw = False
+50.4374 	EXP 	Recog_Question: autoDraw = False
+50.4374 	EXP 	LandmarkImage: image = 'images_LandRecog/Landmark2.png'
+50.4374 	EXP 	LandmarkImage: autoDraw = True
+50.4374 	EXP 	Recog_Question: autoDraw = True
+51.1812 	EXP 	New trial (rep=0, index=2): {'image': 'images_LandRecog/Landmark1.png', 'correct_key': 'y'}
+51.2022 	DATA 	Keypress: y
+51.2147 	EXP 	LandmarkImage: autoDraw = False
+51.2147 	EXP 	Recog_Question: autoDraw = False
+51.2147 	EXP 	LandmarkImage: image = 'images_LandRecog/Landmark1.png'
+51.2147 	EXP 	LandmarkImage: autoDraw = True
+51.2147 	EXP 	Recog_Question: autoDraw = True
+52.0301 	EXP 	New trial (rep=0, index=3): {'image': 'images_LandRecog/Landmark4.png', 'correct_key': 'n'}
+52.0528 	DATA 	Keypress: y
+52.0648 	EXP 	LandmarkImage: autoDraw = False
+52.0648 	EXP 	Recog_Question: autoDraw = False
+52.0648 	EXP 	LandmarkImage: image = 'images_LandRecog/Landmark4.png'
+52.0648 	EXP 	LandmarkImage: autoDraw = True
+52.0648 	EXP 	Recog_Question: autoDraw = True
+52.7314 	EXP 	New trial (rep=0, index=4): {'image': 'images_LandRecog/Landmark3.png', 'correct_key': 'n'}
+52.7443 	DATA 	Keypress: n
+52.7572 	EXP 	LandmarkImage: autoDraw = False
+52.7572 	EXP 	Recog_Question: autoDraw = False
+52.7572 	EXP 	LandmarkImage: image = 'images_LandRecog/Landmark3.png'
+52.7572 	EXP 	LandmarkImage: autoDraw = True
+52.7572 	EXP 	Recog_Question: autoDraw = True
+53.6745 	DATA 	Keypress: y
+53.6891 	EXP 	LandmarkImage: autoDraw = False
+53.6891 	EXP 	Recog_Question: autoDraw = False
+53.6891 	EXP 	text_3: autoDraw = True
+56.7049 	EXP 	text_3: autoDraw = False
+57.2772 	EXP 	window1: mouseVisible = True

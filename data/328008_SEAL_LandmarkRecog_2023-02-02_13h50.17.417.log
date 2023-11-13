@@ -1,0 +1,326 @@
+6.6146 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.4422 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+17.0437 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+17.1085 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa5a977bc10>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa577347940>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.1087 	EXP 	window1: mouseVisible = True
+17.1096 	EXP 	window1: mouseVisible = False
+17.1097 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+17.1097 	EXP 	window1: recordFrameIntervals = False
+17.2595 	EXP 	window1: recordFrameIntervals = True
+17.3308 	WARNING 	t of last frame was 25.12ms (=1/39)
+17.4782 	WARNING 	t of last frame was 24.37ms (=1/41)
+17.8453 	WARNING 	t of last frame was 23.08ms (=1/43)
+18.0134 	WARNING 	t of last frame was 20.06ms (=1/49)
+18.0464 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+18.8569 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+22.8079 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the SEAL Landmark Recognition Task', units='height', win=Window(...), wrapWidth=1)
+22.8369 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.8630 	EXP 	Created LandmarkImage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='LandmarkImage', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.8703 	EXP 	Created Recog_Question = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Recog_Question', opacity=1.0, ori=0.0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='Did you see this art piece?', units='height', win=Window(...), wrapWidth=1)
+22.8780 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.9044 	EXP 	text: autoDraw = True
+25.8939 	EXP 	text: autoDraw = False
+25.8939 	EXP 	text_2: autoDraw = True
+152.9875 	DATA 	Keypress: space
+153.0259 	EXP 	Imported LandmarkRecog_Stims.xlsx as conditions, 40 conditions, 2 params
+153.0328 	EXP 	Created sequence: random, trialTypes=40, nReps=1, seed=None
+153.0342 	EXP 	New trial (rep=0, index=0): {'image': 'Recognition/Correct/Landmark6.jpeg', 'correct_key': 'y'}
+153.7678 	EXP 	text_2: autoDraw = False
+153.7678 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark6.jpeg'
+153.7678 	EXP 	LandmarkImage: autoDraw = True
+153.7678 	EXP 	Recog_Question: autoDraw = True
+156.7959 	EXP 	New trial (rep=0, index=1): {'image': 'Recognition/Incorrect/Landmark24.jpeg', 'correct_key': 'n'}
+157.5439 	DATA 	Keypress: y
+157.8085 	EXP 	LandmarkImage: autoDraw = False
+157.8085 	EXP 	Recog_Question: autoDraw = False
+157.8085 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark24.jpeg'
+157.8085 	EXP 	LandmarkImage: autoDraw = True
+157.8085 	EXP 	Recog_Question: autoDraw = True
+158.7309 	EXP 	New trial (rep=0, index=2): {'image': 'Recognition/Incorrect/Landmark37.jpeg', 'correct_key': 'n'}
+159.5133 	DATA 	Keypress: n
+159.5351 	EXP 	LandmarkImage: autoDraw = False
+159.5351 	EXP 	Recog_Question: autoDraw = False
+159.5351 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark37.jpeg'
+159.5351 	EXP 	LandmarkImage: autoDraw = True
+159.5351 	EXP 	Recog_Question: autoDraw = True
+160.0519 	EXP 	New trial (rep=0, index=3): {'image': 'Recognition/Correct/Landmark17.jpeg', 'correct_key': 'y'}
+160.6371 	DATA 	Keypress: y
+160.6629 	EXP 	LandmarkImage: autoDraw = False
+160.6629 	EXP 	Recog_Question: autoDraw = False
+160.6629 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark17.jpeg'
+160.6629 	EXP 	LandmarkImage: autoDraw = True
+160.6629 	EXP 	Recog_Question: autoDraw = True
+160.9943 	DATA 	Keypress: y
+161.0143 	EXP 	New trial (rep=0, index=4): {'image': 'Recognition/Correct/Landmark16.jpeg', 'correct_key': 'y'}
+161.6399 	EXP 	LandmarkImage: autoDraw = False
+161.6399 	EXP 	Recog_Question: autoDraw = False
+161.6399 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark16.jpeg'
+161.6399 	EXP 	LandmarkImage: autoDraw = True
+161.6399 	EXP 	Recog_Question: autoDraw = True
+162.3890 	EXP 	New trial (rep=0, index=5): {'image': 'Recognition/Incorrect/Landmark40.jpeg', 'correct_key': 'n'}
+163.0268 	DATA 	Keypress: y
+163.0522 	EXP 	LandmarkImage: autoDraw = False
+163.0522 	EXP 	Recog_Question: autoDraw = False
+163.0522 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark40.jpeg'
+163.0522 	EXP 	LandmarkImage: autoDraw = True
+163.0522 	EXP 	Recog_Question: autoDraw = True
+163.7788 	EXP 	New trial (rep=0, index=6): {'image': 'Recognition/Correct/Landmark11.jpeg', 'correct_key': 'y'}
+164.4009 	DATA 	Keypress: y
+164.4260 	EXP 	LandmarkImage: autoDraw = False
+164.4260 	EXP 	Recog_Question: autoDraw = False
+164.4260 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark11.jpeg'
+164.4260 	EXP 	LandmarkImage: autoDraw = True
+164.4260 	EXP 	Recog_Question: autoDraw = True
+165.1007 	EXP 	New trial (rep=0, index=7): {'image': 'Recognition/Correct/Landmark20.jpeg', 'correct_key': 'y'}
+165.7694 	DATA 	Keypress: y
+165.7923 	EXP 	LandmarkImage: autoDraw = False
+165.7923 	EXP 	Recog_Question: autoDraw = False
+165.7923 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark20.jpeg'
+165.7923 	EXP 	LandmarkImage: autoDraw = True
+165.7923 	EXP 	Recog_Question: autoDraw = True
+166.2952 	EXP 	New trial (rep=0, index=8): {'image': 'Recognition/Incorrect/Landmark35.jpeg', 'correct_key': 'n'}
+166.8975 	DATA 	Keypress: y
+166.9195 	EXP 	LandmarkImage: autoDraw = False
+166.9195 	EXP 	Recog_Question: autoDraw = False
+166.9195 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark35.jpeg'
+166.9195 	EXP 	LandmarkImage: autoDraw = True
+166.9195 	EXP 	Recog_Question: autoDraw = True
+167.4145 	EXP 	New trial (rep=0, index=9): {'image': 'Recognition/Correct/Landmark1.jpeg', 'correct_key': 'y'}
+168.0175 	DATA 	Keypress: y
+168.0437 	EXP 	LandmarkImage: autoDraw = False
+168.0437 	EXP 	Recog_Question: autoDraw = False
+168.0437 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark1.jpeg'
+168.0437 	EXP 	LandmarkImage: autoDraw = True
+168.0437 	EXP 	Recog_Question: autoDraw = True
+168.3492 	EXP 	New trial (rep=0, index=10): {'image': 'Recognition/Incorrect/Landmark33.jpeg', 'correct_key': 'n'}
+168.9355 	DATA 	Keypress: y
+168.9580 	EXP 	LandmarkImage: autoDraw = False
+168.9580 	EXP 	Recog_Question: autoDraw = False
+168.9580 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark33.jpeg'
+168.9580 	EXP 	LandmarkImage: autoDraw = True
+168.9580 	EXP 	Recog_Question: autoDraw = True
+169.2925 	EXP 	New trial (rep=0, index=11): {'image': 'Recognition/Incorrect/Landmark21.jpeg', 'correct_key': 'n'}
+169.8960 	DATA 	Keypress: y
+169.9177 	EXP 	LandmarkImage: autoDraw = False
+169.9177 	EXP 	Recog_Question: autoDraw = False
+169.9177 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark21.jpeg'
+169.9177 	EXP 	LandmarkImage: autoDraw = True
+169.9177 	EXP 	Recog_Question: autoDraw = True
+170.2292 	EXP 	New trial (rep=0, index=12): {'image': 'Recognition/Incorrect/Landmark26.jpeg', 'correct_key': 'n'}
+170.9029 	DATA 	Keypress: y
+170.9245 	EXP 	LandmarkImage: autoDraw = False
+170.9245 	EXP 	Recog_Question: autoDraw = False
+170.9245 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark26.jpeg'
+170.9245 	EXP 	LandmarkImage: autoDraw = True
+170.9245 	EXP 	Recog_Question: autoDraw = True
+171.0645 	EXP 	New trial (rep=0, index=13): {'image': 'Recognition/Correct/Landmark12.jpeg', 'correct_key': 'y'}
+171.6539 	DATA 	Keypress: y
+171.6752 	EXP 	LandmarkImage: autoDraw = False
+171.6752 	EXP 	Recog_Question: autoDraw = False
+171.6752 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark12.jpeg'
+171.6752 	EXP 	LandmarkImage: autoDraw = True
+171.6752 	EXP 	Recog_Question: autoDraw = True
+171.9353 	EXP 	New trial (rep=0, index=14): {'image': 'Recognition/Incorrect/Landmark27.jpeg', 'correct_key': 'n'}
+172.5098 	DATA 	Keypress: y
+172.5311 	EXP 	LandmarkImage: autoDraw = False
+172.5311 	EXP 	Recog_Question: autoDraw = False
+172.5311 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark27.jpeg'
+172.5311 	EXP 	LandmarkImage: autoDraw = True
+172.5311 	EXP 	Recog_Question: autoDraw = True
+172.8156 	EXP 	New trial (rep=0, index=15): {'image': 'Recognition/Correct/Landmark2.jpeg', 'correct_key': 'y'}
+173.3814 	DATA 	Keypress: y
+173.4032 	EXP 	LandmarkImage: autoDraw = False
+173.4032 	EXP 	Recog_Question: autoDraw = False
+173.4032 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark2.jpeg'
+173.4032 	EXP 	LandmarkImage: autoDraw = True
+173.4032 	EXP 	Recog_Question: autoDraw = True
+173.7468 	EXP 	New trial (rep=0, index=16): {'image': 'Recognition/Incorrect/Landmark22.jpeg', 'correct_key': 'n'}
+174.3129 	DATA 	Keypress: y
+174.3343 	EXP 	LandmarkImage: autoDraw = False
+174.3343 	EXP 	Recog_Question: autoDraw = False
+174.3343 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark22.jpeg'
+174.3343 	EXP 	LandmarkImage: autoDraw = True
+174.3343 	EXP 	Recog_Question: autoDraw = True
+174.5680 	EXP 	New trial (rep=0, index=17): {'image': 'Recognition/Correct/Landmark19.jpeg', 'correct_key': 'y'}
+175.1706 	DATA 	Keypress: y
+175.1922 	EXP 	LandmarkImage: autoDraw = False
+175.1922 	EXP 	Recog_Question: autoDraw = False
+175.1922 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark19.jpeg'
+175.1922 	EXP 	LandmarkImage: autoDraw = True
+175.1922 	EXP 	Recog_Question: autoDraw = True
+175.3475 	EXP 	New trial (rep=0, index=18): {'image': 'Recognition/Incorrect/Landmark32.jpeg', 'correct_key': 'n'}
+175.8675 	DATA 	Keypress: y
+175.8891 	EXP 	LandmarkImage: autoDraw = False
+175.8891 	EXP 	Recog_Question: autoDraw = False
+175.8891 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark32.jpeg'
+175.8891 	EXP 	LandmarkImage: autoDraw = True
+175.8891 	EXP 	Recog_Question: autoDraw = True
+176.0863 	EXP 	New trial (rep=0, index=19): {'image': 'Recognition/Correct/Landmark4.jpeg', 'correct_key': 'y'}
+176.6543 	DATA 	Keypress: y
+176.6756 	EXP 	LandmarkImage: autoDraw = False
+176.6756 	EXP 	Recog_Question: autoDraw = False
+176.6756 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark4.jpeg'
+176.6756 	EXP 	LandmarkImage: autoDraw = True
+176.6756 	EXP 	Recog_Question: autoDraw = True
+176.7241 	EXP 	New trial (rep=0, index=20): {'image': 'Recognition/Correct/Landmark3.jpeg', 'correct_key': 'y'}
+177.3580 	DATA 	Keypress: y
+177.3601 	DATA 	Keypress: y
+177.3811 	EXP 	LandmarkImage: autoDraw = False
+177.3811 	EXP 	Recog_Question: autoDraw = False
+177.3811 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark3.jpeg'
+177.3811 	EXP 	LandmarkImage: autoDraw = True
+177.3811 	EXP 	Recog_Question: autoDraw = True
+177.9829 	EXP 	New trial (rep=0, index=21): {'image': 'Recognition/Correct/Landmark15.jpeg', 'correct_key': 'y'}
+178.5931 	DATA 	Keypress: y
+178.6152 	EXP 	LandmarkImage: autoDraw = False
+178.6152 	EXP 	Recog_Question: autoDraw = False
+178.6152 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark15.jpeg'
+178.6152 	EXP 	LandmarkImage: autoDraw = True
+178.6152 	EXP 	Recog_Question: autoDraw = True
+178.6226 	DATA 	Keypress: y
+179.2598 	EXP 	New trial (rep=0, index=22): {'image': 'Recognition/Correct/Landmark14.jpeg', 'correct_key': 'y'}
+179.8223 	DATA 	Keypress: y
+179.8435 	EXP 	LandmarkImage: autoDraw = False
+179.8435 	EXP 	Recog_Question: autoDraw = False
+179.8435 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark14.jpeg'
+179.8435 	EXP 	LandmarkImage: autoDraw = True
+179.8435 	EXP 	Recog_Question: autoDraw = True
+179.8707 	EXP 	New trial (rep=0, index=23): {'image': 'Recognition/Incorrect/Landmark29.jpeg', 'correct_key': 'n'}
+180.5059 	DATA 	Keypress: y
+180.5079 	DATA 	Keypress: y
+180.5296 	EXP 	LandmarkImage: autoDraw = False
+180.5296 	EXP 	Recog_Question: autoDraw = False
+180.5296 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark29.jpeg'
+180.5296 	EXP 	LandmarkImage: autoDraw = True
+180.5296 	EXP 	Recog_Question: autoDraw = True
+180.8125 	EXP 	New trial (rep=0, index=24): {'image': 'Recognition/Incorrect/Landmark38.jpeg', 'correct_key': 'n'}
+181.3630 	DATA 	Keypress: y
+181.3652 	DATA 	Keypress: y
+181.3868 	EXP 	LandmarkImage: autoDraw = False
+181.3868 	EXP 	Recog_Question: autoDraw = False
+181.3868 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark38.jpeg'
+181.3868 	EXP 	LandmarkImage: autoDraw = True
+181.3868 	EXP 	Recog_Question: autoDraw = True
+181.5436 	EXP 	New trial (rep=0, index=25): {'image': 'Recognition/Correct/Landmark18.jpeg', 'correct_key': 'y'}
+182.0816 	DATA 	Keypress: y
+182.0837 	DATA 	Keypress: y
+182.1641 	EXP 	LandmarkImage: autoDraw = False
+182.1641 	EXP 	Recog_Question: autoDraw = False
+182.1641 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark18.jpeg'
+182.1641 	EXP 	LandmarkImage: autoDraw = True
+182.1641 	EXP 	Recog_Question: autoDraw = True
+182.2499 	EXP 	New trial (rep=0, index=26): {'image': 'Recognition/Incorrect/Landmark35.jpeg', 'correct_key': 'n'}
+183.0715 	DATA 	Keypress: y
+183.0735 	DATA 	Keypress: y
+183.0754 	DATA 	Keypress: y
+183.1084 	EXP 	LandmarkImage: autoDraw = False
+183.1084 	EXP 	Recog_Question: autoDraw = False
+183.1084 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark35.jpeg'
+183.1084 	EXP 	LandmarkImage: autoDraw = True
+183.1084 	EXP 	Recog_Question: autoDraw = True
+183.2633 	EXP 	New trial (rep=0, index=27): {'image': 'Recognition/Correct/Landmark8.jpeg', 'correct_key': 'y'}
+183.9248 	DATA 	Keypress: y
+183.9268 	DATA 	Keypress: y
+183.9283 	DATA 	Keypress: y
+183.9493 	EXP 	LandmarkImage: autoDraw = False
+183.9493 	EXP 	Recog_Question: autoDraw = False
+183.9493 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark8.jpeg'
+183.9493 	EXP 	LandmarkImage: autoDraw = True
+183.9493 	EXP 	Recog_Question: autoDraw = True
+184.2778 	EXP 	New trial (rep=0, index=28): {'image': 'Recognition/Incorrect/Landmark28.jpeg', 'correct_key': 'n'}
+184.8347 	DATA 	Keypress: y
+184.8603 	EXP 	LandmarkImage: autoDraw = False
+184.8603 	EXP 	Recog_Question: autoDraw = False
+184.8603 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark28.jpeg'
+184.8603 	EXP 	LandmarkImage: autoDraw = True
+184.8603 	EXP 	Recog_Question: autoDraw = True
+186.8002 	EXP 	New trial (rep=0, index=29): {'image': 'Recognition/Incorrect/Landmark30.jpeg', 'correct_key': 'n'}
+187.3460 	DATA 	Keypress: y
+187.3715 	EXP 	LandmarkImage: autoDraw = False
+187.3715 	EXP 	Recog_Question: autoDraw = False
+187.3715 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark30.jpeg'
+187.3715 	EXP 	LandmarkImage: autoDraw = True
+187.3715 	EXP 	Recog_Question: autoDraw = True
+190.7994 	EXP 	New trial (rep=0, index=30): {'image': 'Recognition/Correct/Landmark13.jpeg', 'correct_key': 'y'}
+191.4412 	DATA 	Keypress: y
+191.4665 	EXP 	LandmarkImage: autoDraw = False
+191.4665 	EXP 	Recog_Question: autoDraw = False
+191.4665 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark13.jpeg'
+191.4665 	EXP 	LandmarkImage: autoDraw = True
+191.4665 	EXP 	Recog_Question: autoDraw = True
+191.8407 	EXP 	New trial (rep=0, index=31): {'image': 'Recognition/Incorrect/Landmark39.jpeg', 'correct_key': 'n'}
+192.3725 	DATA 	Keypress: y
+192.3940 	EXP 	LandmarkImage: autoDraw = False
+192.3940 	EXP 	Recog_Question: autoDraw = False
+192.3940 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark39.jpeg'
+192.3940 	EXP 	LandmarkImage: autoDraw = True
+192.3940 	EXP 	Recog_Question: autoDraw = True
+192.6957 	EXP 	New trial (rep=0, index=32): {'image': 'Recognition/Incorrect/Landmark36.jpeg', 'correct_key': 'n'}
+193.2401 	DATA 	Keypress: y
+193.2618 	EXP 	LandmarkImage: autoDraw = False
+193.2618 	EXP 	Recog_Question: autoDraw = False
+193.2618 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark36.jpeg'
+193.2618 	EXP 	LandmarkImage: autoDraw = True
+193.2618 	EXP 	Recog_Question: autoDraw = True
+193.5599 	EXP 	New trial (rep=0, index=33): {'image': 'Recognition/Correct/Landmark10.jpeg', 'correct_key': 'y'}
+194.0899 	DATA 	Keypress: y
+194.1113 	EXP 	LandmarkImage: autoDraw = False
+194.1113 	EXP 	Recog_Question: autoDraw = False
+194.1113 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark10.jpeg'
+194.1113 	EXP 	LandmarkImage: autoDraw = True
+194.1113 	EXP 	Recog_Question: autoDraw = True
+194.3082 	EXP 	New trial (rep=0, index=34): {'image': 'Recognition/Correct/Landmark9.jpeg', 'correct_key': 'y'}
+194.8543 	DATA 	Keypress: y
+194.8757 	EXP 	LandmarkImage: autoDraw = False
+194.8757 	EXP 	Recog_Question: autoDraw = False
+194.8757 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark9.jpeg'
+194.8757 	EXP 	LandmarkImage: autoDraw = True
+194.8757 	EXP 	Recog_Question: autoDraw = True
+194.9893 	EXP 	New trial (rep=0, index=35): {'image': 'Recognition/Incorrect/Landmark25.jpeg', 'correct_key': 'n'}
+195.5545 	DATA 	Keypress: y
+195.5758 	EXP 	LandmarkImage: autoDraw = False
+195.5758 	EXP 	Recog_Question: autoDraw = False
+195.5758 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark25.jpeg'
+195.5758 	EXP 	LandmarkImage: autoDraw = True
+195.5758 	EXP 	Recog_Question: autoDraw = True
+195.6267 	EXP 	New trial (rep=0, index=36): {'image': 'Recognition/Correct/Landmark7.jpeg', 'correct_key': 'y'}
+196.1596 	DATA 	Keypress: y
+196.1813 	EXP 	LandmarkImage: autoDraw = False
+196.1813 	EXP 	Recog_Question: autoDraw = False
+196.1813 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark7.jpeg'
+196.1813 	EXP 	LandmarkImage: autoDraw = True
+196.1813 	EXP 	Recog_Question: autoDraw = True
+196.2713 	EXP 	New trial (rep=0, index=37): {'image': 'Recognition/Correct/Landmark5.jpeg', 'correct_key': 'y'}
+196.8487 	DATA 	Keypress: y
+196.8704 	EXP 	LandmarkImage: autoDraw = False
+196.8704 	EXP 	Recog_Question: autoDraw = False
+196.8704 	EXP 	LandmarkImage: image = 'Recognition/Correct/Landmark5.jpeg'
+196.8704 	EXP 	LandmarkImage: autoDraw = True
+196.8704 	EXP 	Recog_Question: autoDraw = True
+197.0088 	EXP 	New trial (rep=0, index=38): {'image': 'Recognition/Incorrect/Landmark31.jpeg', 'correct_key': 'n'}
+197.5840 	DATA 	Keypress: y
+197.6058 	EXP 	LandmarkImage: autoDraw = False
+197.6058 	EXP 	Recog_Question: autoDraw = False
+197.6058 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark31.jpeg'
+197.6058 	EXP 	LandmarkImage: autoDraw = True
+197.6058 	EXP 	Recog_Question: autoDraw = True
+197.7625 	EXP 	New trial (rep=0, index=39): {'image': 'Recognition/Incorrect/Landmark23.jpeg', 'correct_key': 'n'}
+198.3012 	DATA 	Keypress: y
+198.3224 	EXP 	LandmarkImage: autoDraw = False
+198.3224 	EXP 	Recog_Question: autoDraw = False
+198.3224 	EXP 	LandmarkImage: image = 'Recognition/Incorrect/Landmark23.jpeg'
+198.3224 	EXP 	LandmarkImage: autoDraw = True
+198.3224 	EXP 	Recog_Question: autoDraw = True
+199.2496 	DATA 	Keypress: y
+199.2613 	EXP 	LandmarkImage: autoDraw = False
+199.2613 	EXP 	Recog_Question: autoDraw = False
+199.2613 	EXP 	text_3: autoDraw = True
+200.1408 	DATA 	Keypress: y
+202.2693 	EXP 	text_3: autoDraw = False
+202.8655 	EXP 	window1: mouseVisible = True
